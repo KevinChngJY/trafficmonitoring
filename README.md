@@ -30,9 +30,16 @@ At the end, I have developed a real-time web application to predict the causeway
 
 As this is a proof-of-concept and not the full-blown implementation, the trained neural network is not able to recognize other road's traffic condition and it is only applicable on JB-SG causeway
  
+---
+## SECTION 3 : DATASET
+Data.gov.sg allows user to extract real-time and historical traffic images from the link below :
+https://data.gov.sg/dataset/traffic-images
+
+There are LTA traffic cameras installed all over Singapore to capture the traffic images, and the databases are open for public to access.
+
 
 ---
-## SECTION 3 : MILESTONE 
+## SECTION 4 : MILESTONE 
 You can either use Python or MATLAB if they are available
 
 | Milestone  | Title  | Python Script | MATLAB Script | 
@@ -45,34 +52,38 @@ You can either use Python or MATLAB if they are available
 | 6 | Build Ensemble Network | Milestone_6_Inferences.mlx | Milestone_6_Inferences.mlx |  
 | 7 | Flask - Web Service Deployment | | Flask |
 
----
-
 For detail techniques, please refer to .......
 
-## SECTION 4 : VIDEO OF SYSTEM MODELLING & USE CASE DEMO
+---
+## SECTION 5 : VIDEO OF SYSTEM MODELLING & USE CASE DEMO
 
 [![INTELLIGENT EMPLOYEE SCHEDULER](https://img.youtube.com/vi/y03K28tAMV4/0.jpg)](https://www.youtube.com/watch?v=y03K28tAMV4)
 
 ---
-## SECTION 5 : USER GUIDE
+## SECTION 6 : USER GUIDE
 
 
 ### To run the system in local machine
 
+Install Anaconda & create new environment 
+
 First ensure you have all dependencies :
-* Apache Maven
-* Java JDK 1.8
-* NPM package manager
-* Angular 6
-* NodeJS
+* Flask : https://anaconda.org/anaconda/flask
+* Urllib3 : https://anaconda.org/conda-forge/urllib3
+* Json : https://anaconda.org/jmcmurray/json
+* Onnxruntime : https://pypi.org/project/onnxruntime/
+* Opencv : https://anaconda.org/conda-forge/opencv
+* Numpy : https://anaconda.org/anaconda/numpy
+* Matplotlib : https://anaconda.org/conda-forge/matplotlib
+* Pillow :  https://anaconda.org/anaconda/pillow
 
 Prepare back-end of the service
 1. Open up your command prompt/terminal
 2. Do ``git clone`` https://github.com/nus-iss-2019-gameofthrones/RosterPlanner
-3. Go into the ‘Services’ project folder
-4. Run ``mvn clean install -U`` to compile the project
-5. Run ``mvn spring-boot:run`` to start the application
-6. Now back-end is deployed on *localhost:8082*
+3. Go into the ‘Milestone 7 Flask’ folder
+4. Run ``python main.py`` in the anaconda prompt
+5. Now back-end is deployed on *http://127.0.0.1:5000/*
+6. Open the link above in the browser to visualize the real-time prediction
 
 Prepare front-end of the service
 1. Open up your command prompt/terminal
@@ -85,11 +96,5 @@ Prepare front-end of the service
 For more detailed guide, please read the user guide attached on below link
 
 <https://github.com/nus-iss-2019-gameofthrones/RosterPlanner/blob/master/Throne_UserManual_TestCase.pdf>
-
----
-## SECTION 6 : PROJECT REPORT / PAPER
-
-<https://github.com/nus-iss-2019-gameofthrones/RosterPlanner/blob/master/Reasoning%20systems%20project%20report%20final.pdf>
-
 
 ---
