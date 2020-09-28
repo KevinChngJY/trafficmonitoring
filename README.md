@@ -2,7 +2,7 @@
 ---
 
 ## SECTION 1 : PROJECT TITLE
-## Intelligent Employee Scheduler
+## Image Based Traffic Density Real Time Prediction
 
 <img src="Title2.jpg"
      style="float: left; margin-right: 0px;" />
