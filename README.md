@@ -10,7 +10,7 @@ Authors : Kevin Chng (Email Address : kevinchng@hotmail.com)
      style="float: left; margin-right: 0px;" />
 
 ---
-## SECTION 2 : Requirements
+## SECTION 2 : REQUIREMENTS
 
 
 ---
@@ -32,16 +32,16 @@ As this is a proof-of-concept and not the full-blown implementation, the trained
  
 
 ---
-## SECTION 3 : CREDITS / PROJECT CONTRIBUTION
+## SECTION 3 : MILESTONE 
 
-| Official Full Name  | Student ID (MTech Applicable)  | Work Items (Who Did What) | Email (Optional) |
-| :------------ |:---------------:| :-----| :-----|
-| ANI SIVARAM PORKALANGAD AYYAPPAN | A0195404E | Project Planning, Requirement Specifications, Project Report, System Design, Testing, Project Video| E0385035@u.nus.edu |
-| GARY NG JIAN ZHE | A0195367N | System Design, System Architecture, Rules definition, Optaplanner solver building, Integration of front-end & back-end, Bug fixing and back-end code development, Testing & Project Report | E0384998@u.nus.edu |
-| MOHANADAS GANGA SOOREJ | A0195397J |Frontend Code development, Bug fixing and back-end code development, Integration of front-end & back-end| E0385028@u.nus.edu |
-| RITESH MUNJAL | A0195304H | System Design & System Architecture, Optaplanner solver building, Bug fixing and back-end code development, Integration of front-end & back-end, Testing & Project report| E0384935@u.nus.edu |
-| SANTHIYAPILLAI RAJEEVAN PAUL | A0195399E |System Design & System Architecture, Optaplanner solver building, Bug fixing and back-end code development, Integration of front-end & back-end, Testing| E0385030@u.nus.edu |
-| YONG QUAN ZHI, TOMMY | A0195353Y | System Design & System Architecture, Frontend Code development, Bug fixing and back-end code development, Integration of front-end & back-end, Testing, User manual & Project Report| E0384984@u.nus.edu |
+| Milestone  | Title  | Script | 
+| :------------ |:---------------:| :-----| 
+| 1 | Exploring the Data | Project Planning, Requirement Specifications, Project Report, System Design, Testing, Project Video| 
+| 2 | A0195367N | System Design, System Architecture, Rules definition, Optaplanner solver building, Integration of front-end & back-end, Bug fixing and back-end code development, Testing & Project Report |
+| 3 | A0195397J |Frontend Code development, Bug fixing and back-end code development, Integration of front-end & back-end| 
+| 4 | A0195304H | System Design & System Architecture, Optaplanner solver building, Bug fixing and back-end code development, Integration of front-end & back-end, Testing & Project report| 
+| 5 | A0195399E |System Design & System Architecture, Optaplanner solver building, Bug fixing and back-end code development, Integration of front-end & back-end, Testing| 
+| 6, TOMMY | A0195353Y | System Design & System Architecture, Frontend Code development, Bug fixing and back-end code development, Integration of front-end & back-end, Testing, User manual & Project Report| 
 
 ---
 ## SECTION 4 : VIDEO OF SYSTEM MODELLING & USE CASE DEMO
