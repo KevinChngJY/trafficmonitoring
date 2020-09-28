@@ -21,7 +21,7 @@ As a result, the two causeway cemeras (id:2701 and id:2702) are selected.
 In this milestone, the tools and scripts are
 | Interpreter | **Python (Jupyter Notebook)**  | **MATLAB R2020a** |
 | :------------ |:---------------:|:---------------:|
-| Packages/Toolboxes | urlib3<br>json<br>gmplot | |
+| Packages/Toolboxes | urlib3<br>json<br>gmplot | Mapping Toolbox |
 | Script | **Milestone 1 Explore Data.ipynb or Milestone 1 Explore Data.py**<br> Visualize the data <br> **Milestone 2 Save Data.py** <br> Download the dataset| **Milestone_1_Explore_Data_and_Save_Data.mlx**<br> Visualize and Save the data|
 
 ---
