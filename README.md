@@ -2,7 +2,7 @@
 ---
 
 ## SECTION 1 : PROJECT TITLE
-## Image Based Traffic Density Real Time Prediction - JB-Singapore Causeway
+## Image Based Traffic Density Real Time Prediction using SG LTA Traffic Cameras
 
 <img src="website_outlook.png"
      style="float: left; margin-right: 0px;" />
@@ -18,7 +18,15 @@ factored in, even if they use the most accurate map available, frequently what a
 
 Other route planning apps tried to overcome this issue by having their users turn on GPS. Based on the accumulated users' GPS in specific location, the app can "see" the traffic density there. In addition to this, some apps also incorporate traffic reports and tweets into their optimization model.
 
+However, these methods depend on the user agreeing to turn on their GPS and tweeting about traffic conditions. Some users may wish to use the app in an offline mode and not turn on their GPS due to privacy concerns, and we cannot depend on users to always tweet about traffic situation consistenly and in every instance. How many users are displined or motivated to call in traffic report after report, day after day. Moreover, categorization of traffic density is subjective. One user's definition of heavy traffic is what another deem to be normal traffic
 
+In Singapore, there are around 87 LTA traffic cameras installed all over the island. By utilizing the LTA traffic cameras to measure traffic density, we providue an addition method of providing traffic density that is not dependent on users' GPS and reports.
+
+My goal is not to replace route planning apps but to provide a serice as assistance which they can use to improve the existed route planning.
+
+At the end, I have developed a real-time web application to predict the causeway traffic density using Falsk framework and trained CNN nueral network.
+
+As this is a proof-of-concept and not the full-blown implementation, the trained neural network is not able to recognize other road's traffic condition and it is only applicable on JB-SG causeway
  
 
 ---
