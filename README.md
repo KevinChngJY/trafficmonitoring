@@ -53,8 +53,8 @@ You can either use Python or MATLAB if they are available
 | 3 | Crop the Image and Label the Traffic Condition | | Milestone_3_Crop2701.mlx<br> Milestone_3_Crop2702.mlx | 
 | 4 | Train Deep Learning Models | | Milestone_4_Transfer_Learning_2701.mlx<br> Milestone_4_Transfer_Learning_2702.mlx |
 | 5 | Export Network to ONNX Models | | Export Model to ONNX | 
-| 6 | Build Ensemble Network | Milestone_6_Inferences.mlx | Milestone_6_Inferences.mlx |  
-| 7 | Flask - Web Service Deployment | | Flask |
+| 6 | Build Ensemble Network | Milestone_6_ONNX_RunTime_Testing_Spyder.py | Milestone_6_Inferences.mlx |  
+| 7 | Flask - Web Service Deployment | main.py |  |
 
 For detail techniques, please refer to https://github.com/KevinChngJY/trafficmonitoring/blob/master/milestone_technique.md
 
