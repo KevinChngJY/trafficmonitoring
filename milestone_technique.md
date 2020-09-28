@@ -22,7 +22,7 @@ In this milestone, the tools and scripts are
 | Interpreter | **Python (Jupyter Notebook)**  |
 | :------------ |:---------------:|
 | Packages | urlib3<br>json<br>gmplot |
-| Script | Milestone 1 Explore Data.ipynb|
+| Script | Milestone 1 Explore Data.py|
 
 ---
 ## SECTION 2 : REQUIREMENTS
