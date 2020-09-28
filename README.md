@@ -4,7 +4,7 @@
 ## SECTION 1 : PROJECT TITLE
 ## Image Based Traffic Density Real Time Prediction
 
-<img src="Title2.jpg"
+<img src="website_outlook.png"
      style="float: left; margin-right: 0px;" />
 
 ---
