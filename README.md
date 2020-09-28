@@ -33,10 +33,11 @@ As this is a proof-of-concept and not the full-blown implementation, the trained
 
 ---
 ## SECTION 3 : MILESTONE 
+You can either use Python or MATLAB if they are available
 
 | Milestone  | Title  | Python Script | MATLAB Script | 
 | :------------ |:---------------:| :-----| :-----| 
-| 1 | Exploring the Data | **Python**<br>Milestone_1_Explore Data.py<br>Explore Data.ipynb| 
+| 1 | Exploring the Data |Milestone_1_Explore Data.py<br>Explore Data.ipynb| 
 | 2 | Extracting ROI from Images |  |
 | 3 | Label the Traffic Condition | | 
 | 4 | Train Deep Learning Models | | 
@@ -46,7 +47,7 @@ As this is a proof-of-concept and not the full-blown implementation, the trained
 
 ---
 
-For detail, please refer to .......
+For detail techniques, please refer to .......
 
 ## SECTION 4 : VIDEO OF SYSTEM MODELLING & USE CASE DEMO
 
