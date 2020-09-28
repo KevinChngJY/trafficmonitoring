@@ -39,6 +39,8 @@ There are LTA traffic cameras installed all over Singapore to capture the traffi
 
 <img src="Traffic Cameras in Singapore.png"
      style="float: left; margin-right: 0px;" />
+     
+However, in this project, i'm only focusing on SG-JB causeway traffic. Therefore, I extract 1 month data (Jan 2020) from two traffic cameras installed near the JB-SG causeway, and later I manually label the data to categorize them into "traffic Jam" and "Not Traffic Jam"
 
 ---
 ## SECTION 4 : MILESTONE 
