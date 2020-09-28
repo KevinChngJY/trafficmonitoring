@@ -65,6 +65,11 @@ At the end of this milestone, we have labelled dataset as follow:
 <img src="Image/Image7.png"
      style="float: left; margin-right: 0px;" />
 
+| Interpreter | **Python**  | **MATLAB R2020a** |
+| :------------ |:---------------:|:---------------:|
+| Packages/Toolboxes |  |  |
+| Script | | **Milestone_3_Crop2701.mlx** and **Milestone_3_Crop2702.mlx**<br> Crop 4 regions/sections and place them into different folders|
+
 ---
 ## Milestone 4 : Train Neural Network (Deep Learning) - Transfer Learning
 In this milestone, we will train neural networks at different sections and later discover how to ensemble the outcome of different neural networks.
