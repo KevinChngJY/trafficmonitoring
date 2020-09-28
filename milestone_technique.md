@@ -22,7 +22,7 @@ In this milestone, the tools and scripts are
 | Interpreter | **Python (Jupyter Notebook & Spyder)**  | **MATLAB R2020a** |
 | :------------ |:---------------:|:---------------:|
 | Packages/Toolboxes | urlib3<br>json<br>gmplot<br>os<br>requests<br>shutil | Mapping Toolbox |
-| Script | **Milestone 1 Explore Data.ipynb or Milestone 1 Explore Data.py**<br> Visualize the data <br> **Milestone 2 Save Data.py** <br> Download the dataset| **Milestone_1_Explore_Data_and_Save_Data.mlx**<br> Visualize and Save the data|
+| Script | **Milestone 1 Explore Data.ipynb or Milestone 1 Explore Data.py**<br> Visualize the data <br> **Milestone 1 Save Data.py** <br> Download the dataset| **Milestone_1_Explore_Data_and_Save_Data.mlx**<br> Visualize and Save the data|
 
 ---
 ## SECTION 2 : Milestone 2: Extracting ROI from Images and Crop the Image into few section
@@ -41,4 +41,4 @@ Segmented the road out :
 | Interpreter | **Python (Spyder)**  | **MATLAB R2020a** |
 | :------------ |:---------------:|:---------------:|
 | Packages/Toolboxes | labelme(third party tool)<br>from PIL import image<br>ImageDraw<br>json<br>os | Image Processing Toolbox |
-| Script | **Third Party Tool - labelme**<br>label the coordinate of image 2701 and 2702, <br> save them to 2701_coordinate.json abd 2702_coordinate.json<br>**Milestone_2_Extract ROI from Image_2701.py** and **Milestone_2_Extract ROI Image_2702.py** <br> Crop ROI from all the images| **Milestone_1_Explore_Data_and_Save_Data.mlx**<br> Visualize and Save the data|
+| Script | **Third Party Tool - labelme**<br>label the coordinate of image 2701 and 2702, <br> save them to 2701_coordinate.json abd 2702_coordinate.json<br>**Milestone_2_Extract ROI from Image_2701.py** and **Milestone_2_Extract ROI Image_2702.py** <br> Segment/Mask ROI from all the images| **Milestone_2_Extract_ROI_from_Image.mlx**<br> Segment/Mask ROI from all the images|
