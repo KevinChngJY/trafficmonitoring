@@ -11,7 +11,7 @@ As definition of trafic condition is subjective, one user's definition of heavy 
 
 As a result, the two causeway cemeras (id:2701 and id:2702) are selected.
 
-<img src="website_outlook.png"
+<img src="Image/Image1.png"
      style="float: left; margin-right: 0px;" />
 
 ---
