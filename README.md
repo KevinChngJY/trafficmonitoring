@@ -8,14 +8,13 @@
      style="float: left; margin-right: 0px;" />
 
 ---
-## SECTION 2 : EXECUTIVE SUMMARY / PAPER ABSTRACT
-Most organizations face problems in creating a well-planned roster to manage shift works of their employees, given there are limited set of constrained resources. 
+## SECTION 2 : Requirements
 
-With a multitude of scheduler software available in the market today, Intelligent Employee Scheduler (IES) created by our group of NUS M-Tech students stands out of the crowd by leveraging on OptaPlanner to allow a manager assign shift work to his employees. 
 
-The optimal goal prioritizes the needs of employees for maximized satisfaction.  IES can assign them to various shifts based on several hard and soft constraints such as availability of a worker subject to their leaves, proximity of a worker to work-site and assigning workers of relevant expertize appropriately. 
-
-Our sincere thanks to NUS ISS Lecturer Sam Gu, who has guided us on the working of OptaPlanner and how it could be used to tackle employee rostering problem, using Hybrid Reasoning System approach. 
+---
+## SECTION 3 : EXECUTIVE SUMMARY / PAPER ABSTRACT
+There are many route planning apps in the market. Some help their users plan their trips by using maps to find the shortest path. However, if real traffic conditions are not 
+factored in, even if they use the most accurate map available, frequently what appeared to be the faster route ends taking up a much longer time than anticipated.
  
 
 ---
