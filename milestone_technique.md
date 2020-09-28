@@ -18,5 +18,10 @@ As a result, the two causeway cemeras (id:2701 and id:2702) are selected.
 <img src="Image/Image2.png"
      style="float: left; margin-right: 0px;" />
 
+In this milestone, the tools and scripts are
+| Interpreter | **Python (Jupyter Notebook)**  |
+| Packages | urlib3,json,gmplot |
+| Script | Milestone 1 Explore Data.ipynb|
+
 ---
 ## SECTION 2 : REQUIREMENTS
