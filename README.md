@@ -56,7 +56,7 @@ You can either use Python or MATLAB if they are available
 | 6 | Build Ensemble Network | Milestone_6_Inferences.mlx | Milestone_6_Inferences.mlx |  
 | 7 | Flask - Web Service Deployment | | Flask |
 
-For detail techniques, please refer to .......
+For detail techniques, please refer to https://github.com/KevinChngJY/trafficmonitoring/blob/master/techniques_description
 
 ---
 ## SECTION 6 : VIDEO OF SYSTEM MODELLING & USE CASE DEMO
