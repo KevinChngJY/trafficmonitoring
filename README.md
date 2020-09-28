@@ -67,7 +67,8 @@ You can either use Python or MATLAB if they are available
 For detail techniques, please refer to https://github.com/KevinChngJY/trafficmonitoring/blob/master/milestone_technique.md
 
 ---
-## SECTION 6 : VIDEO OF SYSTEM MODELLING & USE CASE DEMO
+## SECTION 6 : PRESENTATION
+Perhaps I will recornd and upload one day
 
 [![Image Based Traffic Density Real Time Prediction]()
 
