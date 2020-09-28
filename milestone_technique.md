@@ -72,6 +72,9 @@ At the end of this milestone, we have labelled dataset as follow:
 
 ---
 ## Milestone 4 : Train Neural Network (Deep Learning) - Transfer Learning
+**if you dont want to train the models yourself, you may skip the training process**
+**in Milestone 6, there is link to download trained model for this project**
+
 In this milestone, we will train neural networks at different sections and later discover how to ensemble the outcome of different neural networks.
 
 I use MATLAB's Deep Network Designer to train the neural network and fine tune the hyperparameter using Experiment Manager (R2020a). Deep Network Designer and Experiment Manager are GUI applications in MATLAT latest release R2020a.
@@ -113,6 +116,8 @@ If you refer to ONNX website, there are few deployment options you may consider.
 
 ---
 ## Milestone 6 : Build Ensemble Models from our 8 CNN trained Network
+**If you didn't train the model yourself, you may download the trained model here : https://www.dropbox.com/s/k2vza349bspvmvn/ONNX%20Network.zip?dl=0**
+
 Ensemble models will combine the decisions from multiple models to improve the overall performance. There are various ensemble models techniques as follows:
 
 1)	Simple Ensemble Techniques
@@ -154,6 +159,11 @@ For 2702: Overall Accuracy is 88%
 At the end, I average the traffic jam scale of 2 ensemble model as final traffic scale.
 
 **Overall Traffic Jam Scale = (Traffic Jam Scale of 2701 Ensemble Model + Traffic Jam Scale of 2702 Ensemble Model) / 2**
+
+| Interpreter | **Python**  | **MATLAB R2020a** |
+| :------------ |:---------------:|:---------------:|
+| Packages/Toolboxes | numpy<br>onnxruntime<br>from onnx import numpy_helper<br>urllib.request<br>time<br>opencv(cv2)<br>time<br>matplotlib.pyplo<br>from PIL import Image, ImageDraw, ImageFont | Deep Learning Toolbox  |
+| Script | **Milestone_6_ONNX_RunTime_Testing_Spyder.py**<br>Testing ONNX runtime + Evaluate Ensemble Model | **Milestone_6_Inferences.mlx**<br> Evaluate Ensemble Model|
 
 ---
 ## Milestone 7 : Build Ensemble Models from our 8 CNN trained Network
