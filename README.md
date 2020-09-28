@@ -37,6 +37,8 @@ https://data.gov.sg/dataset/traffic-images
 
 There are LTA traffic cameras installed all over Singapore to capture the traffic images, and the databases are open for public to access.
 
+<img src="Traffic Cameras in Singapore.png"
+     style="float: left; margin-right: 0px;" />
 
 ---
 ## SECTION 4 : MILESTONE 
@@ -57,7 +59,7 @@ For detail techniques, please refer to .......
 ---
 ## SECTION 5 : VIDEO OF SYSTEM MODELLING & USE CASE DEMO
 
-[![INTELLIGENT EMPLOYEE SCHEDULER](https://img.youtube.com/vi/y03K28tAMV4/0.jpg)](https://www.youtube.com/watch?v=y03K28tAMV4)
+[![Image Based Traffic Density Real Time Prediction]()
 
 ---
 ## SECTION 6 : USER GUIDE
