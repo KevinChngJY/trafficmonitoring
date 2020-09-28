@@ -34,9 +34,9 @@ As this is a proof-of-concept and not the full-blown implementation, the trained
 ---
 ## SECTION 3 : MILESTONE 
 
-| Milestone  | Title  | Script | 
-| :------------ |:---------------:| :-----| 
-| 1 | Exploring the Data | **MATLAB**<br><br>**Python**<br>Milestone_1_Explore Data.py<br>Explore Data.ipynb| 
+| Milestone  | Title  | Python Script | MATLAB Script | 
+| :------------ |:---------------:| :-----| :-----| 
+| 1 | Exploring the Data | **Python**<br>Milestone_1_Explore Data.py<br>Explore Data.ipynb| 
 | 2 | Extracting ROI from Images | System Design, System Architecture, Rules definition, Optaplanner solver building, Integration of front-end & back-end, Bug fixing and back-end code development, Testing & Project Report |
 | 3 | Label the Traffic Condition |Frontend Code development, Bug fixing and back-end code development, Integration of front-end & back-end| 
 | 4 | Train Deep Learning Models | System Design & System Architecture, Optaplanner solver building, Bug fixing and back-end code development, Integration of front-end & back-end, Testing & Project report| 
