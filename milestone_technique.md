@@ -21,8 +21,19 @@ As a result, the two causeway cemeras (id:2701 and id:2702) are selected.
 In this milestone, the tools and scripts are
 | Interpreter | **Python (Jupyter Notebook)**  | **MATLAB R2020a** |
 | :------------ |:---------------:|:---------------:|
-| Packages/Toolboxes | urlib3<br>json<br>gmplot | Mapping Toolbox |
+| Packages/Toolboxes | urlib3<br>json<br>gmplot<br>os<br>requests<br>shutil | Mapping Toolbox |
 | Script | **Milestone 1 Explore Data.ipynb or Milestone 1 Explore Data.py**<br> Visualize the data <br> **Milestone 2 Save Data.py** <br> Download the dataset| **Milestone_1_Explore_Data_and_Save_Data.mlx**<br> Visualize and Save the data|
 
 ---
-## SECTION 2 : REQUIREMENTS
+## SECTION 2 : Milestone 2: Extracting ROI from Images and Crop the Image into few section
+In this section, we segmented the road out for all the images in the folder dataset/2701 and dataset/2702
+
+Original :
+
+<img src="Image/Image3.png"
+     style="float: left; margin-right: 0px;" />
+     
+Segmented the road out :
+
+<img src="Image/Image4.png"
+     style="float: left; margin-right: 0px;" />
