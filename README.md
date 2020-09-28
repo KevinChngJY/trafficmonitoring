@@ -50,7 +50,7 @@ You can either use Python or MATLAB if they are available
 | :------------ |:---------------:| :-----| :-----| 
 | 1 | Exploring the Data | Milestone_1_Explore Data.py<br> Explore Data.ipynb<br> Milestone1_Save_Data.py| Milestone_1_Explore_Data_and_Save_Data.mlx |
 | 2 | Extracting ROI from Images | Milestone2_Extract ROI from Image_2701.py<br> Milestone2_Extract ROI from Image_2702.py | Milestone_2_Extract_ROI_from_Image.mlx |
-| 3 | Label the Traffic Condition | | Milestone_3_Crop2701.mlx<br> Milestone_3_Crop2702.mlx | 
+| 3 | Crop the Image and Label the Traffic Condition | | Milestone_3_Crop2701.mlx<br> Milestone_3_Crop2702.mlx | 
 | 4 | Train Deep Learning Models | | Milestone_4_Transfer_Learning_2701.mlx<br> Milestone_4_Transfer_Learning_2702.mlx |
 | 5 | Export Network to ONNX Models | | Export Model to ONNX | 
 | 6 | Build Ensemble Network | Milestone_6_Inferences.mlx | Milestone_6_Inferences.mlx |  
