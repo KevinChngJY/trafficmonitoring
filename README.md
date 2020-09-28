@@ -83,7 +83,7 @@ First ensure you have all dependencies :
 
 Prepare back-end of the service
 1. Open up your command prompt/terminal
-2. Do ``git clone`` https://github.com/nus-iss-2019-gameofthrones/RosterPlanner
+2. Do ``git clone`` https://github.com/KevinChngJY/trafficmonitoring
 3. Go into the ‘Milestone 7 Flask’ folder
 4. Run ``python main.py`` in the anaconda prompt
 5. Now back-end is deployed on *http://127.0.0.1:5000/*
