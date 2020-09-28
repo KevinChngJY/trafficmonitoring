@@ -102,3 +102,58 @@ ONNX is an open format built to represent machine learning/deep learning models.
 https://onnx.ai/
 
 In this milestone, we export the neural network from MATLAB to ONNX model using MATLAB function ([exportONNXNetwork](https://www.mathworks.com/help/deeplearning/ref/exportonnxnetwork.html)). Therefore, after exporting all the eight model to ONNX, then we should have 8 ONNX files:
+
+<img src="Image/Image10.png"
+     style="float: left; margin-right: 0px;" />
+     
+If you refer to ONNX website, there are few deployment options you may consider. However, for this  project, we will use ONNX runtime in python.
+
+<img src="Image/Image11.png"
+     style="float: left; margin-right: 0px;" />
+
+---
+## Milestone 6 : Build Ensemble Models from our 8 CNN trained Network
+Ensemble models will combine the decisions from multiple models to improve the overall performance. There are various ensemble models techniques as follows:
+
+1)	Simple Ensemble Techniques
+•	Taking the mode of the results
+•	Taking the average of the results
+•	Talking weighted average of the results
+2)	Advanced Ensembled Techniques
+•	Bagging (Bootstrap AGGregatING)
+•	Boosting
+
+In this project, I would like to classify the traffic jam scale from 0-4. After running through few predictions, I found section 3 and section 4 of id 2701 usually cause confusion and return low accuracy of prediction, it is because the custom officer sometimes will allow heavy vehicles from opposite direction to use one of the lane JB to queue for Singapore Custom, therefore, the neural network miss classify it as traffic jam or higher score for traffic jam. 
+	
+For example, in the image below, we found the traffic score is higher at section 3 due to the opposite heavy vehicle (from JB to SG) is queuing the Singapore’s Custom.
+
+<img src="Image/Image12.png"
+     style="float: left; margin-right: 0px;" />
+
+As a result, I put lower weight for section 3 and section 4 in images 2701. For the image 2702, I will take the summation of all traffic jam’s scores as the scale of traffic.
+
+**Weightage of each section to form the ensemble model for each image**
+
+<img src="Image/Image13.png"
+     style="float: left; margin-right: 0px;" />
+
+For the evaluation of these 2 ensemble models, I randomly select 25 images to predict the traffic condition using trained neural network. Through trial and errors, they are the best ensemble model (weightage). However, in future development, perhaps we should build an optimization model to optimize the weightage.
+
+The result of the evaluation (25 images) is showing in the confusion matrix below
+
+For 2701 : Overall Accuracy is 88%
+
+<img src="Image/Image14.png"
+     style="float: left; margin-right: 0px;" />
+     
+For 2702: Overall Accuracy is 88%
+
+<img src="Image/Image15.png"
+     style="float: left; margin-right: 0px;" />
+
+At the end, I average the traffic jam scale of 2 ensemble model as final traffic scale.
+
+**Overall Traffic Jam Scale = (Traffic Jam Scale of 2701 Ensemble Model + Traffic Jam Scale of 2702 Ensemble Model) / 2**
+
+---
+## Milestone 7 : Build Ensemble Models from our 8 CNN trained Network
