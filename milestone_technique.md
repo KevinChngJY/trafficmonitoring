@@ -92,5 +92,13 @@ At the end of this milestone, there are
 
 | Interpreter | **Python**  | **MATLAB R2020a** |
 | :------------ |:---------------:|:---------------:|
-| Packages/Toolboxes |  |  |
+| Packages/Toolboxes |  | Deep Learning Toolbox  |
 | Script | | **Milestone_4_Transfer_learning_2701.mlx** and **Milestone_4_Transfer_learning_2702.mlx**<br> Train CNN using Transfer Learning|
+
+---
+## Milestone 5 : Export Network to ONNX Model
+ONNX is an open format built to represent machine learning/deep learning models. ONNX defines a common set of operators – the building blocks of machine learning and deep learning models and a common file format to enable AI developers to use models with variety of frameworks, tools, runtimes, and compilers. For more details, you can refer to website below:
+
+https://onnx.ai/
+
+In this milestone, we export the neural network from MATLAB to ONNX model using MATLAB function ([exportONNXNetwork](https://www.mathworks.com/help/deeplearning/ref/exportonnxnetwork.html)). Therefore, after exporting all the eight model to ONNX, then we should have 8 ONNX files:
