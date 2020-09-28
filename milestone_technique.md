@@ -48,8 +48,35 @@ Segmented the road out :
 If you are looking at the quality of images, then you will discover that the image's quality is bad. Therefore, it is not recommended to rescale the image into smaller image for the inout of deep learning neural network, As a result, I crop the image as follows:
 
 **Camera id 2701**
-I crop the image into 4 section
+I crop the image into 4 sections
 
 <img src="Image/Image5.png"
      style="float: left; margin-right: 0px;" />
 
+**Camera id 2702**
+I crop the image into 4 sections
+
+<img src="Image/Image6.png"
+     style="float: left; margin-right: 0px;" />
+     
+We will crop the images into 4 section, then in each section, I manually label them into traffic jam or not traffic jam.
+At the end of this milestone, we have labelled dataset as follow:
+
+<img src="Image/Image7.png"
+     style="float: left; margin-right: 0px;" />
+
+---
+## Milestone 4 : Train Neural Network (Deep Learning) - Transfer Learning
+In this milestone, we will train neural networks at different sections and later discover how to ensemble the outcome of different neural networks.
+
+I use MATLAB's Deep Network Designer to train the neural network and fine tune the hyperparameter using Experiment Manager (R2020a). Deep Network Designer and Experiment Manager are GUI applications in MATLAT latest release R2020a.
+
+(In future, perhaps I will add python script about it, but it is not hard, you can grab example online)
+
+How to open Deep Network Designer in MATLAB:
+<img src="Image/Image8.png"
+     style="float: left; margin-right: 0px;" />
+     
+How to open Experiment Manager in MATLAB:
+<img src="Image/Image9.png"
+     style="float: left; margin-right: 0px;" />
