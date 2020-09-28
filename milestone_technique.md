@@ -21,7 +21,7 @@ As a result, the two causeway cemeras (id:2701 and id:2702) are selected.
 In this milestone, the tools and scripts are
 | Interpreter | **Python (Jupyter Notebook)**  |
 | :------------ |:---------------:|
-| Packages | urlib3,json,gmplot |
+| Packages | urlib3<br>json<br>gmplot |
 | Script | Milestone 1 Explore Data.ipynb|
 
 ---
