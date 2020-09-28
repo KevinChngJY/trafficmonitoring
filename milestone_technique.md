@@ -166,4 +166,29 @@ At the end, I average the traffic jam scale of 2 ensemble model as final traffic
 | Script | **Milestone_6_ONNX_RunTime_Testing_Spyder.py**<br>Testing ONNX runtime + Evaluate Ensemble Model | **Milestone_6_Inferences.mlx**<br> Evaluate Ensemble Model|
 
 ---
-## Milestone 7 : Build Ensemble Models from our 8 CNN trained Network
+## Milestone 7 : Flask - Web Service Deployment
+The figure below is the overview of system implementation in this project. I use flask to run as backend service to get the latest traffic image from Data.gov.sg through restAPI. The installed ONNX runtime will load the trained ONNX models and keep the model as ONNX session to classify the latest traffic image. The web application will request the latest traffic scale result from the server, and reflect them in the frontend (Web Page). There are 8 ONNX models loading into the flask backend.
+
+<img src="Image/Image16.png"
+     style="float: left; margin-right: 0px;" />
+     
+**To run the system in local machine**
+Install Anaconda & create new environment 
+
+First ensure you have all dependencies :
+* Flask : https://anaconda.org/anaconda/flask
+* Urllib3 : https://anaconda.org/conda-forge/urllib3
+* Json : https://anaconda.org/jmcmurray/json
+* Onnxruntime : https://pypi.org/project/onnxruntime/
+* Opencv : https://anaconda.org/conda-forge/opencv
+* Numpy : https://anaconda.org/anaconda/numpy
+* Matplotlib : https://anaconda.org/conda-forge/matplotlib
+* Pillow :  https://anaconda.org/anaconda/pillow
+
+Prepare back-end of the service
+1. Open up your command prompt/terminal
+2. Do ``git clone`` https://github.com/KevinChngJY/trafficmonitoring
+3. Go into the ‘Milestone 7 Flask’ folder
+4. Run ``python main.py`` in the anaconda prompt
+5. Now back-end is deployed on *http://127.0.0.1:5000/*
+6. Open the link above in the browser to visualize the real-time prediction
