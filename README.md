@@ -36,14 +36,18 @@ As this is a proof-of-concept and not the full-blown implementation, the trained
 
 | Milestone  | Title  | Script | 
 | :------------ |:---------------:| :-----| 
-| 1 | Exploring the Data | Project Planning, Requirement Specifications, Project Report, System Design, Testing, Project Video| 
-| 2 | A0195367N | System Design, System Architecture, Rules definition, Optaplanner solver building, Integration of front-end & back-end, Bug fixing and back-end code development, Testing & Project Report |
-| 3 | A0195397J |Frontend Code development, Bug fixing and back-end code development, Integration of front-end & back-end| 
-| 4 | A0195304H | System Design & System Architecture, Optaplanner solver building, Bug fixing and back-end code development, Integration of front-end & back-end, Testing & Project report| 
-| 5 | A0195399E |System Design & System Architecture, Optaplanner solver building, Bug fixing and back-end code development, Integration of front-end & back-end, Testing| 
-| 6, TOMMY | A0195353Y | System Design & System Architecture, Frontend Code development, Bug fixing and back-end code development, Integration of front-end & back-end, Testing, User manual & Project Report| 
+| 1 | Exploring the Data | **MATLAB**<br><br>**Python**<br>Milestone_1_Explore Data.py<br>Explore Data.ipynb| 
+| 2 | Extracting ROI from Images | System Design, System Architecture, Rules definition, Optaplanner solver building, Integration of front-end & back-end, Bug fixing and back-end code development, Testing & Project Report |
+| 3 | Label the Traffic Condition |Frontend Code development, Bug fixing and back-end code development, Integration of front-end & back-end| 
+| 4 | Train Deep Learning Models | System Design & System Architecture, Optaplanner solver building, Bug fixing and back-end code development, Integration of front-end & back-end, Testing & Project report| 
+| 5 | Export Network to ONNX Models |System Design & System Architecture, Optaplanner solver building, Bug fixing and back-end code development, Integration of front-end & back-end, Testing| 
+| 6 | Build Ensemble Network | System Design & System Architecture, Frontend Code development, Bug fixing and back-end code development, Integration of front-end & back-end, Testing, User manual & Project Report| 
+| 7 | Flask - Web Service Deployment | System Design & System Architecture, Frontend Code development, Bug fixing and back-end code development, Integration of front-end & back-end, Testing, User manual & Project Report| 
 
 ---
+
+For detail, please refer to .......
+
 ## SECTION 4 : VIDEO OF SYSTEM MODELLING & USE CASE DEMO
 
 [![INTELLIGENT EMPLOYEE SCHEDULER](https://img.youtube.com/vi/y03K28tAMV4/0.jpg)](https://www.youtube.com/watch?v=y03K28tAMV4)
