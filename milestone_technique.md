@@ -22,7 +22,7 @@ In this milestone, the tools and scripts are
 | Interpreter | **Python (Jupyter Notebook)**  | **MATLAB R2020a** |
 | :------------ |:---------------:|:---------------:|
 | Packages/Toolboxes | urlib3<br>json<br>gmplot | |
-| Script | **Milestone 1 Explore Data.ipynb**<br> Visualize the data <br> **Milestone 2 Explore Data.py** <br> Download the dataset| |
+| Script | **Milestone 1 Explore Data.ipynb or Milestone 1 Explore Data.py**<br> Visualize the data <br> **Milestone 2 Save Data.py** <br> Download the dataset| |
 
 ---
 ## SECTION 2 : REQUIREMENTS
