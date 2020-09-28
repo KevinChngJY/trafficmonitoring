@@ -2,7 +2,7 @@
 ---
 
 ## SECTION 1 : PROJECT TITLE
-## Image Based Traffic Density Real Time Prediction
+## Image Based Traffic Density Real Time Prediction - JB-Singapore Causeway
 
 <img src="website_outlook.png"
      style="float: left; margin-right: 0px;" />
