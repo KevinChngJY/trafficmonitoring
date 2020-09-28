@@ -4,6 +4,8 @@
 ## SECTION 1 : PROJECT TITLE
 ## Image Based Traffic Density Real Time Prediction using SG LTA Traffic Cameras
 
+Authors : Kevin Chng (Email Address : kevinchng@hotmail.com)
+
 <img src="website_outlook.png"
      style="float: left; margin-right: 0px;" />
 
