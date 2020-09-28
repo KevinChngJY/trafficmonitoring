@@ -31,7 +31,7 @@ At the end, I have developed a real-time web application to predict the causeway
 As this is a proof-of-concept and not the full-blown implementation, the trained neural network is not able to recognize other road's traffic condition and it is only applicable on JB-SG causeway
  
 ---
-## SECTION 3 : DATASET
+## SECTION 4 : DATASET
 Data.gov.sg allows user to extract real-time and historical traffic images from the link below :
 https://data.gov.sg/dataset/traffic-images
 
@@ -43,7 +43,7 @@ There are LTA traffic cameras installed all over Singapore to capture the traffi
 However, in this project, i'm only focusing on SG-JB causeway traffic. Therefore, I extract 1 month data (Jan 2020) from two traffic cameras installed near the JB-SG causeway, and later I manually label the data to categorize them into "traffic Jam" and "Not Traffic Jam"
 
 ---
-## SECTION 4 : MILESTONE 
+## SECTION 5 : MILESTONE 
 You can either use Python or MATLAB if they are available
 
 | Milestone  | Title  | Python Script | MATLAB Script | 
@@ -59,12 +59,12 @@ You can either use Python or MATLAB if they are available
 For detail techniques, please refer to .......
 
 ---
-## SECTION 5 : VIDEO OF SYSTEM MODELLING & USE CASE DEMO
+## SECTION 6 : VIDEO OF SYSTEM MODELLING & USE CASE DEMO
 
 [![Image Based Traffic Density Real Time Prediction]()
 
 ---
-## SECTION 6 : USER GUIDE
+## SECTION 7 : USER GUIDE
 
 
 ### To run the system in local machine
@@ -88,17 +88,5 @@ Prepare back-end of the service
 4. Run ``python main.py`` in the anaconda prompt
 5. Now back-end is deployed on *http://127.0.0.1:5000/*
 6. Open the link above in the browser to visualize the real-time prediction
-
-Prepare front-end of the service
-1. Open up your command prompt/terminal
-2. Go into the ‘Frontend’ project folder
-3. ``Npm install``
-4. ``Ng serve`` 
-5. No fornt-end is started on *localhost:4200*
-6. Open a browser and got to *localhost:4200*
-
-For more detailed guide, please read the user guide attached on below link
-
-<https://github.com/nus-iss-2019-gameofthrones/RosterPlanner/blob/master/Throne_UserManual_TestCase.pdf>
 
 ---
