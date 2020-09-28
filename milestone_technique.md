@@ -85,3 +85,12 @@ How to open Deep Network Designer in MATLAB:
 How to open Experiment Manager in MATLAB:
 <img src="Image/Image9.png"
      style="float: left; margin-right: 0px;" />
+     
+At the end of this milestone, there are
+4 Neural Networks for different sections in 2701
+4 Neural Networks for different sections in 2702
+
+| Interpreter | **Python**  | **MATLAB R2020a** |
+| :------------ |:---------------:|:---------------:|
+| Packages/Toolboxes |  |  |
+| Script | | **Milestone_4_Transfer_learning_2701.mlx** and **Milestone_4_Transfer_learning_2702.mlx**<br> Train CNN using Transfer Learning|
