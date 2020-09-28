@@ -12,6 +12,14 @@ Authors : Kevin Chng (Email Address : kevinchng@hotmail.com)
 ---
 ## SECTION 2 : REQUIREMENTS
 
+**1) Python**
+Interpreters : Jupyter Notebook, Spyder
+Packages : urlib3,json,gmplot,os,requests,shutil,PIL,ImageDraw,numpy,onnxruntime,onnx,time,cv2,matplotlib.pyplo
+Third Party Tools : labelme
+
+**2) MATLAB**
+Version : R2020a and above
+Toolboxes : Mapping Toolbox, Image Processing Toolbox, Deep Learning Toolbox
 
 ---
 ## SECTION 3 : EXECUTIVE SUMMARY / PAPER ABSTRACT
