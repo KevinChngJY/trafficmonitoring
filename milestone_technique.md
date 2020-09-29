@@ -186,9 +186,13 @@ First ensure you have all dependencies :
 * Pillow :  https://anaconda.org/anaconda/pillow
 
 Prepare back-end of the service
-1. Open up your command prompt/terminal
-2. Do ``git clone`` https://github.com/KevinChngJY/trafficmonitoring
-3. Go into the ‘Milestone 7 Flask’ folder
-4. Run ``python main.py`` in the anaconda prompt
-5. Now back-end is deployed on *http://127.0.0.1:5000/*
-6. Open the link above in the browser to visualize the real-time prediction
+
+Prepare back-end of the service
+1. Download trained ONNX Models (8 Models) and place them in the folder of Coding(Submission)
+https://www.dropbox.com/s/k2vza349bspvmvn/ONNX%20Network.zip?dl=0 
+2. Open up your command prompt/terminal
+3. Do ``git clone`` https://github.com/KevinChngJY/trafficmonitoring
+4. Go into the ‘Milestone 7 Flask’ folder
+5. Run ``python main.py`` in the anaconda prompt
+6. Now back-end is deployed on *http://127.0.0.1:5000/*
+7. Open the link above in the browser to visualize the real-time prediction
