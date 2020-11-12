@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfDNADataPoint xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://instepsoftware.com/webservices">
+  <DNADataPoint>
+    <Name>CEBU.UNIV.10000338</Name>
+    <ShortID>CEBU.UNIV.10000338</ShortID>
+    <ExtendedID>10000338</ExtendedID>
+    <CurrentValue>60.082698822021484</CurrentValue>
+    <ValueString>60.0826988220215</ValueString>
+    <Time>2020-11-12T15:27:18+08:00</Time>
+    <Status>OK</Status>
+    <Description>000000100003070000120010</Description>
+    <Units />
+    <StatusCode>3</StatusCode>
+  </DNADataPoint>
+  <DNADataPoint>
+    <Name>CEBU.UNIV.10001328</Name>
+    <ShortID>CEBU.UNIV.10001328</ShortID>
+    <ExtendedID>10001328</ExtendedID>
+    <CurrentValue>-800</CurrentValue>
+    <ValueString>-800</ValueString>
+    <Time>2020-11-12T15:14:20+08:00</Time>
+    <Status>NOT UPDATED</Status>
+    <Description>000000100002420001760040</Description>
+    <Units />
+    <StatusCode>1</StatusCode>
+  </DNADataPoint>
+  <DNADataPoint>
+    <Name>CEBU.UNIV.10000312</Name>
+    <ShortID>CEBU.UNIV.10000312</ShortID>
+    <ExtendedID>10000312</ExtendedID>
+    <CurrentValue>14.370560646057129</CurrentValue>
+    <ValueString>14.3705606460571</ValueString>
+    <Time>2020-11-12T15:24:25+08:00</Time>
+    <Status>NOT UPDATED</Status>
+    <Description>000000100002510001910060</Description>
+    <Units />
+    <StatusCode>1</StatusCode>
+  </DNADataPoint>
+</ArrayOfDNADataPoint>
