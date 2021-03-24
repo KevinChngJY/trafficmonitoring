@@ -32,7 +32,7 @@ However, these methods depend on the user agreeing to turn on their GPS and twee
 
 In Singapore, there are around 87 LTA traffic cameras installed all over the island. By utilizing the LTA traffic cameras to measure traffic density, we providue an addition method of providing traffic density that is not dependent on users' GPS and reports.
 
-My goal is not to replace route planning apps but to provide a serice as assistance which they can use to improve the existed route planning.
+My goal is not to replace route planning apps but to provide a service as assistance which they can use to improve the existed route planning.
 
 At the end, I have developed a real-time web application to predict the causeway traffic density using Falsk framework and trained CNN nueral network.
 
